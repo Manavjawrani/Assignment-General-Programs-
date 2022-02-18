@@ -1,0 +1,15 @@
+function with 1 input
+inc x = x+1
+inc 8
+
+function with more than one inputs
+uncurried version
+add(x,y)=x+y
+add(2,3) 
+
+curried version
+add x y=x+y 
+add 2 3 
+add 2 (inc 4)
+map (add 1) [1,2,3]
+
